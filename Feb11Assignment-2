@@ -1,0 +1,34 @@
+sno=int(input('enter sno:'))
+sname=(input('enter sname:'))
+group=(input('enter group:'))
+sub1=int(input('s1 marks:'))
+sub2=int(input('s2 marks:'))
+sub3=int(input('s3 marks:'))
+sub4=int(input('s4 marks:'))
+sub5=int(input('s5 marks:'))
+total=sub1+sub2+sub3+sub4+sub5
+avg=total/5
+if avg>=91:
+    print("o grade")
+elif avg>=81:
+    print("a grade")
+elif avg>=71:
+    print("b grade")
+elif avg>=60:
+    print("c grade")
+elif avg>=50:
+    print("d grade")
+elif avg>=40:
+    print("pass")
+else:
+  print("fail")
+  Output
+  enter sno:1
+enter sname:sai satya
+enter group:bca
+s1 marks:56
+s2 marks:45
+s3 marks:78
+s4 marks:89
+s5 marks:91
+b grade
